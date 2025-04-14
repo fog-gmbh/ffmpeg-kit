@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
     ss.source_files         = 'Classes/**/*'
     ss.public_header_files  = 'Classes/**/*.h'
     #ss.dependency 'ffmpeg-kit-macos-min', "6.0"
-    ss.osx.vendored_frameworks = 'Frameworks/ffmpeg-kit-macos-min/*.{xcframework}'
+    ss.osx.vendored_frameworks = 'Frameworks/ffmpeg-kit-macos-min/*.xcframework'
     ss.osx.deployment_target = '10.15'
   end
 
